@@ -20,20 +20,20 @@
 
 ## How to run this application?
 
-1. Clone the repository : `git clone https://github.com/systers/language-translation.git`. Check into the directory after cloning.
+1. Clone the repository: `git clone https://github.com/systers/language-translation.git`. Check the directory after cloning.
 
-2. Install PostgreSQL (Version 8.2 and above supported), npm, node, graphviz and imagemagick (for image resize/thumbnail creation).
+2. Install PostgreSQL (Version 8.2 and above supported), npm, node, graphviz and ImageMagick (for image resize/thumbnail creation).
 
 3. Rename config/database.yml.example to config/database.yml : 
 `mv config/database.yml.example config/database.yml`.
 
-4. Update the config/database.yml file with your host name, postgresql username and password.
+4. Update the config/database.yml file with your hostname, PostgreSQL username, and password.
 
 5. To install all the gems, `bundle install`
 
-6. To setup the application database run, `rake db:setup`.
+6. To set up the application database run, `rake db: setup`.
 
-7. Install bower using npm : `npm install -g bower`.
+7. Install bower using npm: `npm install -g bower`.
 
 8. To install bower components, Run `bower install`.
 
@@ -49,4 +49,4 @@
 
 14. To view the coverage details, From application root, open coverage directory (`cd coverage`) and run `python -m SimpleHTTPServer` and visit `localhost:8000` on your browser.
 
-15. To set up backup of this application on deployment, refer to the `backup` directory.
+15. To set up a backup of this application on deployment, refer to the `backup` directory.
